@@ -1,0 +1,176 @@
+[06:40:22] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06:40:23] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[06:40:24] [Worker-Main-2/INFO]: Loaded 7 recipes
+[06:40:27] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[06:40:27] [Server thread/INFO]: Loading properties
+[06:40:28] [Server thread/INFO]: This server is running Paper version git-Paper-547 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[06:40:28] [Server thread/INFO]: Debug logging is disabled
+[06:40:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:40:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:40:28] [Server thread/INFO]: Default game type: SURVIVAL
+[06:40:28] [Server thread/INFO]: Generating keypair
+[06:40:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:40:28] [Server thread/INFO]: Using epoll channel type
+[06:40:30] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[06:40:41] [Server thread/WARN]: Legacy plugin dynmap v3.1-beta7-449 does not specify an api-version.
+[06:40:42] [Server thread/INFO]: [dynmap] Loading dynmap v3.1-beta7-449
+[06:40:42] [Server thread/INFO]: [dynmap] version=git-Paper-547 (MC: 1.16.5)
+[06:40:42] [Server thread/INFO]: [dynmap] Mod Support API available
+[06:40:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:40:42] [Server thread/INFO]: Preparing level "world"
+[06:40:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:40:44] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[06:40:44] [Server thread/INFO]: Preparing spawn area: 0%
+[06:40:44] [Server thread/INFO]: Preparing spawn area: 0%
+[06:40:44] [Server thread/INFO]: Preparing spawn area: 0%
+[06:40:44] [Server thread/INFO]: Preparing spawn area: 0%
+[06:40:44] [Server thread/INFO]: Time elapsed: 1796 ms
+[06:40:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[06:40:45] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[06:40:45] [Server thread/INFO]: Preparing spawn area: 0%
+[06:40:45] [Server thread/INFO]: Preparing spawn area: 0%
+[06:40:45] [Server thread/INFO]: Preparing spawn area: 69%
+[06:40:46] [Server thread/INFO]: Time elapsed: 1398 ms
+[06:40:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[06:40:46] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[06:40:46] [Server thread/INFO]: Preparing spawn area: 0%
+[06:40:46] [Worker-Main-1/INFO]: Preparing spawn area: 100%
+[06:40:47] [Worker-Main-1/INFO]: Preparing spawn area: 100%
+[06:40:47] [Server thread/INFO]: Time elapsed: 1230 ms
+[06:40:47] [Server thread/INFO]: [dynmap] Enabling dynmap v3.1-beta7-449*
+[06:40:48] [Server thread/INFO]: [dynmap] Using Bukkit Permissions (superperms) for access control
+[06:40:48] [Server thread/INFO]: [dynmap] Web interface permissions only available for online users
+[06:40:48] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[06:40:49] [Server thread/INFO]: [dynmap] Loaded 25 shaders.
+[06:40:49] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
+[06:40:49] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[06:40:49] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[06:40:50] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[06:40:50] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[06:40:50] [Server thread/INFO]: [dynmap] version 3.1-beta7-449 is enabled - core version 3.1-beta7-449
+[06:40:50] [Server thread/INFO]: [dynmap] For support, visit https://reddit.com/r/Dynmap or our Discord at https://discord.gg/s3rd5qn
+[06:40:50] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[06:40:50] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[06:40:50] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[06:40:50] [Server thread/INFO]: [dynmap] Loaded 10875 pending tile renders for world 'world'
+[06:40:50] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[06:40:50] [Server thread/INFO]: [dynmap] Loaded 6682 pending tile renders for world 'world_nether'
+[06:40:50] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[06:40:50] [Server thread/INFO]: [dynmap] Enabled
+[06:40:50] [Server thread/INFO]: Running delayed init tasks
+[06:40:50] [Server thread/INFO]: Done (22.935s)! For help, type "help"
+[06:40:50] [Server thread/INFO]: Timings Reset
+[06:40:51] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[09:14:00] [Server thread/INFO]: --------- Help: Index ---------------------------
+[09:14:00] [Server thread/INFO]: Use /help [n] to get page n of help.
+[09:14:00] [Server thread/INFO]: Aliases: Lists command aliases
+[09:14:00] [Server thread/INFO]: Bukkit: All commands for Bukkit
+[09:14:00] [Server thread/INFO]: dynmap: All commands for dynmap
+[09:14:00] [Server thread/INFO]: Minecraft: All commands for Minecraft
+[09:14:00] [Server thread/INFO]: /advancement: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /attribute: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /ban: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /ban-ip: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /banlist: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /bossbar: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /clear: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /clone: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /data: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /datapack: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /debug: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /deop: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /difficulty: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /dmap: List and modify dynmap configuration
+[09:14:00] [Server thread/INFO]: /dmarker: Manipulate map markers
+[09:14:00] [Server thread/INFO]: /dynmap: Controls Dynmap.
+[09:14:00] [Server thread/INFO]: /dynmapexp: Map export commands
+[09:14:00] [Server thread/INFO]: /effect: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /enchant: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /execute: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /experience: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /fill: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /forceload: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /function: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /gamemode: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /gamerule: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /give: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /help: Shows the help menu
+[09:14:00] [Server thread/INFO]: /kick: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /kill: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /list: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /locate: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /locatebiome: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /loot: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /me: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /msg: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /mspt: View server tick times
+[09:14:00] [Server thread/INFO]: /op: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /paper: Paper related commands
+[09:14:00] [Server thread/INFO]: /pardon: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /particle: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /playsound: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
+[09:14:00] [Server thread/INFO]: /recipe: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
+[09:14:00] [Server thread/INFO]: /replaceitem: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /restart: Restarts the server
+[09:14:00] [Server thread/INFO]: /save-all: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /save-off: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /save-on: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /say: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /schedule: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /scoreboard: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /seed: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /setblock: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /spectate: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /spigot: Spigot related commands
+[09:14:00] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /stop: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /stopsound: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /summon: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /tag: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /team: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /teammsg: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /teleport: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /tell: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /tellraw: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /time: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
+[09:14:00] [Server thread/INFO]: /title: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /tm: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /tp: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
+[09:14:00] [Server thread/INFO]: /trigger: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
+[09:14:00] [Server thread/INFO]: /w: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /weather: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /whitelist: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /worldborder: A Mojang provided command.
+[09:14:00] [Server thread/INFO]: /xp: A Mojang provided command.
+[09:14:02] [Server thread/INFO]: Stopping the server
+[09:14:02] [Server thread/INFO]: Stopping server
+[09:14:02] [Server thread/INFO]: [dynmap] Disabling dynmap v3.1-beta7-449
+[09:14:02] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[09:14:02] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[09:14:03] [Server thread/INFO]: [dynmap] Disabled
+[09:14:03] [Server thread/INFO]: Saving players
+[09:14:03] [Server thread/INFO]: Saving worlds
+[09:14:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09:14:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:14:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[09:14:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:14:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[09:14:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:14:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:14:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:14:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:14:04] [Server thread/INFO]: Flushing Chunk IO
+[09:14:04] [Server thread/INFO]: Closing Thread Pool
+[09:14:04] [Server thread/INFO]: Closing Server
