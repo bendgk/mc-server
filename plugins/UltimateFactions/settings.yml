@@ -1,0 +1,231 @@
+# Plugin by Miinoo_
+# https://www.spigotmc.org/members/kayloot.188238/
+# Do not sell, decompile or leak this plugin
+Settings:
+  Other:
+    # Maximal length of faction name
+    factionNameLenght: 16
+    # Only use Numbers and Letters in faction name
+    onlyCharacter: true
+    # enable the chat-system
+    # the default format can be changed in messages.yml
+    chat-system:
+      enabled: true
+    # You can see in chat if a faction is a enemy, ally or truce
+    # You can use the following variables in the extended Format:
+    extendedChatFormat:
+      # make sure chat-system is enabled
+      enabled: false
+      defaultColor: "&9"
+      allyColor: "&a"
+      enemyColor: "&c"
+      truceColor: "&2"
+      factionColor: "&e"
+      format: "&7[%color%%faction%&7] &e%player%&8: &f%message%"
+      # used if the player which send a message is not in a faction
+      format2: "&7[] &e%player%&8: &f%message%"
+    # Set to false if you want to disable the /f shop function
+    enableShop: false
+    creationCost:
+    # Set to true if you want people to pay ingame money to create a faction
+      enabled: false
+      costs: 100.0
+    # Here you can set if a player should get notified in chat if he enteres the territory of [a faction / region / wilderness]
+    # you can edit the messages in the messages.yml file
+    territory:
+      enterMessage: true
+  # Set boolean to true if you want to enable faction warps outside a claimed chunk
+  Warps:
+    outsideFactionChunk: false
+  # Map Settings
+  Map:
+    # Recommended height: 10
+    # Recommended width: 30
+    Height: 10
+    Width: 30
+    Colors:
+      Indicators:
+        player: AQUA
+        border: BLACK
+      empty: BLUE
+      enemy: DARK_RED
+      truce: GOLD
+      ally: LIGHT_PURPLE
+      ownFaction: GREEN
+      hostile: RED
+  # Game Settings
+  Game:
+    # this boolean enable or disables the warp commands (/f warp, /f setwarp, /f delwarp)
+    enableWarps: true
+    # this boolean enable or disables the home commands (/f home, /f sethome)
+    enableHome: true
+    # enable info scoreboard (right display site)
+    enableScoreboard: true
+    # every # seconds the scoreboard will get updated
+    scoreboardUpdateCount: 20
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+    #                                FactionsTop Settings                           #
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+    TopFactions:
+      # every # minutes the faction top gets updated
+      # time in minutes
+      updaterCount: 5
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+    #                                   /f Wild Settings                            #
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+    Wild:
+      # define if the /f wild command should be enabled or not
+      enabled: true
+      # define if a player can randomly teleported in an enemy factions territory
+      # set to true if a player shouldn't be abled to random teleport into other territories
+      # set to false if a player should be abled to random teleport into other territories
+      teleport-safe: true
+      # here you can choose a world where the player should be random teleported in.
+      teleport-world: world
+      # set the cost for each teleport (using VAULT)
+      # set to 0 if you don't want users to pay for a random teleport
+      costs: 100
+      # teleport delay
+      # set delay to 0 to disable teleport delay
+      delay: 10
+      # teleport range max for the maximum X and Z value
+      wildMaxX: 1000
+      # teleport range min for the minimum X and Z value
+      wildMaxZ: 1000
+      # disabled worlds
+      disabled-worlds:
+        - world_nether
+        - world_end
+      # disabled biomes
+      disabled-biomes:
+        - OCEAN
+        - DEEP_OCEAN
+        - COLD_OCEAN
+        - DEEP_COLD_OCEAN
+        - DEEP_FROZEN_OCEAN
+        - WARM_OCEAN
+        - LUKEWARM_OCEAN
+        - DEEP_LUKEWARM_OCEAN
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+    #                                  Townhall Settings                            #
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+    TownHall:
+      # define if the townhall should be enabled or not
+      # if its disabled, you can use the /f bank and /f energy command!
+      # if its enabled, you can't use these commands
+      enabled: true
+      # default health of townhall NPC
+      defaultHealth: 100.0
+      # define when a player can move the townhall
+      # move Cooldown in hours
+      moveCooldown: 24
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+    #                                    Claim Settings                               #
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+    Claims:
+      # set to false if players can choose random chunks over the world to claim
+      # set to true if you want players only to claim connected chunks
+      connected: true
+      # here you can add worlds where players can't use the /f claim command
+      disabled-worlds:
+        - test
+      # default price of the first # chunks
+      defaultPrice: 100
+      # every # claims the price gets multiplied with the price multiplier
+      PriceStreak: 5
+      PriceMultiplier: 1.5
+      # time until all claims gets unclaimed
+      # timer in days
+      energyTimer: 15
+      # energy upgrade multiplier = # * amount of claims
+      # this sets the costs of energy for each claim
+      energyMultiplier: 50
+      flyCommand:
+        # set to true if you want players to use /f fly with a permission
+        # instead of using the faction upgrade
+        usePermissionInsteadOfUpgrade: false
+        permission: ultimatefactions.claims.fly
+      # set to false if you want that people can tpa or tp into other faction territories
+      # (not recommend)
+      teleport-blocker: true
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+    #                                    Power Settings                               #
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+    Power:
+      # power increase value when a player joins the faction
+      powerJoinIncrease: 10
+      # power decrease value when a player left faction
+      powerLeaveDecrease: 10
+      # power increase value when the faction killed a player
+      powerKillIncrease: 5
+      # power decrease value when a faction player died
+      powerKillDecrease: 5
+      # maximum power of faction
+      maxPower: 200
+      # minimum power of faction
+      minPower: -25
+      # player 1 join power increase value
+      player1Power: 35
+      # player 2 join increase value
+      player2Power: 25
+      # player 3 join increase value
+      player3Power: 15
+      # timer after power regenerate
+      powerRegenCount: 600
+      # power regenerate value
+      powerRegenValue: 15
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+    #                                   Warpiece Settings                               #
+    #           you gain warpieces by killing a player of a other faction               #
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+    WarPieces:
+      # maximum warpieces you can have with a faction
+      maxWarPiece: 25
+      # minimum warpieces you can have with a faction
+      minWarPiece: -25
+      # minimum of online players of the faction that is getting sieged
+      siegeMinPlayerOnline: 2
+      # duration of a siege in minutes
+      siegeCount: 30
+      # warpieces you need to siege a faction
+      siegePieceNeeded: 25
+      # disabled worlds
+      disabledWorlds:
+        - exampleWorld
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+    #                                   Interact Settings                               #
+    #        configure which blocks can be used by other players in a claimed chunk     #
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+    InteractAll:
+      chest: false
+      trapped_chest: false
+      ender_chest: false
+      shulker: false
+      trapdoor: false
+      door: false
+      button: false
+      lever: false
+      fence_gate: false
+      oven: false
+      dispenser: false
+      dropper: false
+      anvil: false
+      comparator: false
+      repeater: false
+      hopper: false
+      barrel: false
+      fillBucket: false
+      emptyBucket: false
+  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+  #                                   Tablist Settings                                #
+  #                        you can use same variables in scoreboard                   #
+  # variables:                                                                        #
+  # %faction% - shows your currently faction                                          #
+  # %claims% - shows your currently claim size                                        #
+  # %power% - shows your currently faction power                                      #
+  # %online% - shows currently online players                                         #
+  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+  Tab:
+    enabled: true
+    header: '&5&lThis is a &e&lHeader\n&9Edit everything!'
+    footer: '&5&lThis is a &e&lFooter\n&9Online: &e%count%\n&9Power: &e%power%!'

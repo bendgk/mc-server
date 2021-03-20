@@ -1,0 +1,5 @@
+Sounds:
+  success: "ENTITY_PLAYER_LEVEL_UP"
+  error: "BLOCK_ANVIL_LAND"
+  quest_completed: "UI_TOAST_CHALLENGE_COMPLETE"
+  townhall_die: "ENTITY_VILLAGER_DEATH"

@@ -1,0 +1,69 @@
+# Plugin by Miinoo_
+# https://www.spigotmc.org/members/kayloot.188238/
+# Do not sell, decompile or leak this plugin
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#
+# You can simply add a faction level by copying an existing level and changing some options
+#
+# example:
+#
+# 1: # this is the level of the faction
+#   cost: 100000    # here you can set the cost you need to upgrade the faction to the next level
+#   fly: false      # here you can choose if faction fly should be disabled or enabled in this level
+#   fill: false     # here you can choose if faction fill should be disabled or enabled in this level (puts tnt out of your inventory directly in a dispenser)
+#   member: 10      # here you can choose the maximum member count in a faction in this level
+#   warps: 2        # here you can choose the maximum amount of warps in a faction in this level
+#   warp-cooldown: 10  # here you can choose the warp-delay time in a faction in this level
+#   claims: 10      # here you can choose the maximum amount of claims a faction can have in this level
+#   mobdrop-multiplier: 0.1   # here you can choose the multiplier a mob drops more items (DONT SET TO 0.0 TO AVOID CONSOLE ERRORS)
+#   potion-effects:     # here you can edit the potion effects that a player has in its factions chunk
+#     enabled: false    # set to true if the effects should be enabled
+#     effects:          # here you can add the effects a player should have
+#       - jump_boost
+#   max-active-quests: 1 # here you can set the maximum amount of active quests a faction can have
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+0:
+  cost: 0
+  fly: false
+  fill: false
+  member: 5
+  warps: 2
+  warp-cooldown: 10
+  claims: 10
+  mobdrop-multiplier: 0.1
+  potion-effects:
+    enabled: false
+    effects:
+      -
+  max-active-quests: 1
+1:
+  cost: 10000
+  fly: false
+  fill: true
+  member: 10
+  warps: 5
+  warp-cooldown: 8
+  claims: 15
+  mobdrop-multiplier: 0.5
+  potion-effects:
+    enabled: true
+    effects:
+      - jump
+  max-active-quests: 2
+2:
+  cost: 150000
+  fly: true
+  fill: true
+  member: 15
+  warps: 10
+  warp-cooldown: 6
+  claims: 20
+  mobdrop-multiplier: 1.0
+  potion-effects:
+    enabled: true
+    effects:
+      - speed
+      - regeneration
+  max-active-quests: 3

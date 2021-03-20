@@ -1,176 +1,202 @@
-[06:40:22] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[06:40:23] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[06:40:24] [Worker-Main-2/INFO]: Loaded 7 recipes
-[06:40:27] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[06:40:27] [Server thread/INFO]: Loading properties
-[06:40:28] [Server thread/INFO]: This server is running Paper version git-Paper-547 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[06:40:28] [Server thread/INFO]: Debug logging is disabled
-[06:40:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[06:40:28] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:40:28] [Server thread/INFO]: Default game type: SURVIVAL
-[06:40:28] [Server thread/INFO]: Generating keypair
-[06:40:28] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:40:28] [Server thread/INFO]: Using epoll channel type
-[06:40:30] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[06:40:41] [Server thread/WARN]: Legacy plugin dynmap v3.1-beta7-449 does not specify an api-version.
-[06:40:42] [Server thread/INFO]: [dynmap] Loading dynmap v3.1-beta7-449
-[06:40:42] [Server thread/INFO]: [dynmap] version=git-Paper-547 (MC: 1.16.5)
-[06:40:42] [Server thread/INFO]: [dynmap] Mod Support API available
-[06:40:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[06:40:42] [Server thread/INFO]: Preparing level "world"
-[06:40:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[06:40:44] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[06:40:44] [Server thread/INFO]: Preparing spawn area: 0%
-[06:40:44] [Server thread/INFO]: Preparing spawn area: 0%
-[06:40:44] [Server thread/INFO]: Preparing spawn area: 0%
-[06:40:44] [Server thread/INFO]: Preparing spawn area: 0%
-[06:40:44] [Server thread/INFO]: Time elapsed: 1796 ms
-[06:40:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[06:40:45] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[06:40:45] [Server thread/INFO]: Preparing spawn area: 0%
-[06:40:45] [Server thread/INFO]: Preparing spawn area: 0%
-[06:40:45] [Server thread/INFO]: Preparing spawn area: 69%
-[06:40:46] [Server thread/INFO]: Time elapsed: 1398 ms
-[06:40:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[06:40:46] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[06:40:46] [Server thread/INFO]: Preparing spawn area: 0%
-[06:40:46] [Worker-Main-1/INFO]: Preparing spawn area: 100%
-[06:40:47] [Worker-Main-1/INFO]: Preparing spawn area: 100%
-[06:40:47] [Server thread/INFO]: Time elapsed: 1230 ms
-[06:40:47] [Server thread/INFO]: [dynmap] Enabling dynmap v3.1-beta7-449*
-[06:40:48] [Server thread/INFO]: [dynmap] Using Bukkit Permissions (superperms) for access control
-[06:40:48] [Server thread/INFO]: [dynmap] Web interface permissions only available for online users
-[06:40:48] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[06:40:49] [Server thread/INFO]: [dynmap] Loaded 25 shaders.
-[06:40:49] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
-[06:40:49] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
-[06:40:49] [Server thread/INFO]: [dynmap] Starting enter/exit processing
-[06:40:50] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
-[06:40:50] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
-[06:40:50] [Server thread/INFO]: [dynmap] version 3.1-beta7-449 is enabled - core version 3.1-beta7-449
-[06:40:50] [Server thread/INFO]: [dynmap] For support, visit https://reddit.com/r/Dynmap or our Discord at https://discord.gg/s3rd5qn
-[06:40:50] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[06:40:50] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[06:40:50] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
-[06:40:50] [Server thread/INFO]: [dynmap] Loaded 10875 pending tile renders for world 'world'
-[06:40:50] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
-[06:40:50] [Server thread/INFO]: [dynmap] Loaded 6682 pending tile renders for world 'world_nether'
-[06:40:50] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
-[06:40:50] [Server thread/INFO]: [dynmap] Enabled
-[06:40:50] [Server thread/INFO]: Running delayed init tasks
-[06:40:50] [Server thread/INFO]: Done (22.935s)! For help, type "help"
-[06:40:50] [Server thread/INFO]: Timings Reset
-[06:40:51] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
-[09:14:00] [Server thread/INFO]: --------- Help: Index ---------------------------
-[09:14:00] [Server thread/INFO]: Use /help [n] to get page n of help.
-[09:14:00] [Server thread/INFO]: Aliases: Lists command aliases
-[09:14:00] [Server thread/INFO]: Bukkit: All commands for Bukkit
-[09:14:00] [Server thread/INFO]: dynmap: All commands for dynmap
-[09:14:00] [Server thread/INFO]: Minecraft: All commands for Minecraft
-[09:14:00] [Server thread/INFO]: /advancement: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /attribute: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /ban: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /ban-ip: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /banlist: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /bossbar: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /clear: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /clone: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /data: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /datapack: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /debug: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /deop: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /difficulty: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /dmap: List and modify dynmap configuration
-[09:14:00] [Server thread/INFO]: /dmarker: Manipulate map markers
-[09:14:00] [Server thread/INFO]: /dynmap: Controls Dynmap.
-[09:14:00] [Server thread/INFO]: /dynmapexp: Map export commands
-[09:14:00] [Server thread/INFO]: /effect: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /enchant: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /execute: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /experience: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /fill: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /forceload: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /function: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /gamemode: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /gamerule: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /give: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /help: Shows the help menu
-[09:14:00] [Server thread/INFO]: /kick: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /kill: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /list: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /locate: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /locatebiome: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /loot: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /me: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /msg: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /mspt: View server tick times
-[09:14:00] [Server thread/INFO]: /op: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /paper: Paper related commands
-[09:14:00] [Server thread/INFO]: /pardon: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /particle: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /playsound: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
-[09:14:00] [Server thread/INFO]: /recipe: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
-[09:14:00] [Server thread/INFO]: /replaceitem: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /restart: Restarts the server
-[09:14:00] [Server thread/INFO]: /save-all: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /save-off: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /save-on: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /say: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /schedule: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /scoreboard: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /seed: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /setblock: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /spectate: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /spigot: Spigot related commands
-[09:14:00] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /stop: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /stopsound: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /summon: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /tag: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /team: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /teammsg: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /teleport: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /tell: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /tellraw: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /time: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
-[09:14:00] [Server thread/INFO]: /title: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /tm: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /tp: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
-[09:14:00] [Server thread/INFO]: /trigger: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
-[09:14:00] [Server thread/INFO]: /w: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /weather: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /whitelist: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /worldborder: A Mojang provided command.
-[09:14:00] [Server thread/INFO]: /xp: A Mojang provided command.
-[09:14:02] [Server thread/INFO]: Stopping the server
-[09:14:02] [Server thread/INFO]: Stopping server
-[09:14:02] [Server thread/INFO]: [dynmap] Disabling dynmap v3.1-beta7-449
-[09:14:02] [Server thread/INFO]: [dynmap] Unloaded 11 components.
-[09:14:02] [Server thread/INFO]: [dynmap] Stopping map renderer...
-[09:14:03] [Server thread/INFO]: [dynmap] Disabled
-[09:14:03] [Server thread/INFO]: Saving players
-[09:14:03] [Server thread/INFO]: Saving worlds
-[09:14:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[09:14:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09:14:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[09:14:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09:14:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[09:14:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09:14:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09:14:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09:14:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09:14:04] [Server thread/INFO]: Flushing Chunk IO
-[09:14:04] [Server thread/INFO]: Closing Thread Pool
-[09:14:04] [Server thread/INFO]: Closing Server
+[02:28:45] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:28:46] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[02:28:46] [Worker-Main-1/INFO]: Loaded 7 recipes
+[02:28:48] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[02:28:48] [Server thread/INFO]: Loading properties
+[02:28:48] [Server thread/INFO]: This server is running Paper version git-Paper-547 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[02:28:48] [Server thread/INFO]: Debug logging is disabled
+[02:28:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:28:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:28:48] [Server thread/INFO]: Default game type: SURVIVAL
+[02:28:48] [Server thread/INFO]: Generating keypair
+[02:28:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:28:48] [Server thread/INFO]: Using epoll channel type
+[02:28:49] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[02:28:54] [Server thread/WARN]: Legacy plugin dynmap v3.1-beta7-449 does not specify an api-version.
+[02:28:54] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[02:28:54] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.0-dev+96-1cf2b11
+[02:28:54] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.9
+[02:28:54] [Server thread/INFO]: [dynmap] Loading dynmap v3.1-beta7-449
+[02:28:54] [Server thread/INFO]: [dynmap] version=git-Paper-547 (MC: 1.16.5)
+[02:28:54] [Server thread/INFO]: [dynmap] Mod Support API available
+[02:28:54] [Server thread/INFO]: [UltimateFactions] Loading UltimateFactions v4.2.2
+[02:28:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:28:54] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[02:28:54] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.0-dev+96-1cf2b11 which is not a depend, softdepend or loadbefore of this plugin.
+[02:28:54] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[02:28:54] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:28:54] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[02:28:54] [Server thread/INFO]: Preparing level "world"
+[02:28:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:28:55] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[02:28:55] [Server thread/INFO]: Preparing spawn area: 0%
+[02:28:55] [Server thread/INFO]: Preparing spawn area: 0%
+[02:28:55] [Server thread/INFO]: Time elapsed: 553 ms
+[02:28:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:28:55] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[02:28:55] [Server thread/INFO]: Time elapsed: 389 ms
+[02:28:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:28:56] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[02:28:56] [Server thread/INFO]: Time elapsed: 383 ms
+[02:28:56] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.0-dev+96-1cf2b11
+[02:28:56] [Server thread/INFO]: [Essentials] Creating config from template: /home/azureuser/mc-server/plugins/Essentials/config.yml
+[02:28:56] [Server thread/INFO]: [Essentials] Creating config from template: /home/azureuser/mc-server/plugins/Essentials/kits.yml
+[02:28:56] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:28:56] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[02:28:56] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[02:28:56] [Server thread/INFO]: [Essentials] Starting usermap repair
+[02:28:56] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[02:28:56] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[02:28:56] [Server thread/INFO]: [Essentials] Creating config from template: /home/azureuser/mc-server/plugins/Essentials/worth.yml
+[02:28:56] [pool-9-thread-1/INFO]: [Essentials] Creating empty config: /home/azureuser/mc-server/plugins/Essentials/upgrades-done.yml
+[02:28:56] [Server thread/INFO]: [Essentials] Creating config from template: /home/azureuser/mc-server/plugins/Essentials/tpr.yml
+[02:28:56] [Server thread/INFO]: [Essentials] Loaded 25599 items from items.json.
+[02:28:56] [Server thread/INFO]: [Essentials] Creating config from template: /home/azureuser/mc-server/plugins/Essentials/custom_items.yml
+[02:28:56] [Server thread/INFO]: [Essentials] Using locale en_US
+[02:28:56] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:28:56] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:28:56] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[02:28:56] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[02:28:56] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.9
+[02:28:57] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[02:28:57] [Server thread/INFO]: [dynmap] Enabling dynmap v3.1-beta7-449*
+[02:28:57] [Server thread/INFO]: [dynmap] Using Vault provider SuperPerms for access control
+[02:28:57] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[02:28:58] [Server thread/INFO]: [dynmap] Loaded 25 shaders.
+[02:28:58] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
+[02:28:58] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[02:28:58] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[02:28:58] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[02:28:58] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[02:28:58] [Server thread/INFO]: [dynmap] version 3.1-beta7-449 is enabled - core version 3.1-beta7-449
+[02:28:58] [Server thread/INFO]: [dynmap] For support, visit https://reddit.com/r/Dynmap or our Discord at https://discord.gg/s3rd5qn
+[02:28:58] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[02:28:58] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[02:28:58] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[02:28:58] [Server thread/INFO]: [dynmap] Loaded 20835 pending tile renders for world 'world'
+[02:28:58] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[02:28:58] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[02:28:58] [Server thread/INFO]: [dynmap] Enabled
+[02:28:58] [Server thread/INFO]: [UltimateFactions] Enabling UltimateFactions v4.2.2
+[02:28:59] [Server thread/INFO]: 
+  _    _ _ _   _                 _         ______         _   _                 
+ | |  | | | | (_)               | |       |  ____|       | | (_)                
+ | |  | | | |_ _ _ __ ___   __ _| |_ ___  | |__ __ _  ___| |_ _  ___  _ __  ___ 
+ | |  | | | __| | '_ ` _ \ / _` | __/ _ \ |  __/ _` |/ __| __| |/ _ \| '_ \/ __|
+ | |__| | | |_| | | | | | | (_| | ||  __/ | | | (_| | (__| |_| | (_) | | | \__ \
+  \____/|_|\__|_|_| |_| |_|\__,_|\__\___| |_|  \__,_|\___|\__|_|\___/|_| |_|___/
+                                                                                
+                              enabled v4.2.2 by Miinoo_ 
+                         thank you for using ultimatefactions!                  
+             if you find any bug please report them on my discord! discord.gg/4dgT7Pz      
+[02:28:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ultimatefactions
+[02:28:59] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[02:28:59] [Server thread/INFO]: Running delayed init tasks
+[02:28:59] [Server thread/INFO]: Done (11.488s)! For help, type "help"
+[02:28:59] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[02:28:59] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[02:28:59] [Craft Scheduler Thread - 3/INFO]: [Essentials] Fetching version information...
+[02:28:59] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[02:28:59] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[02:28:59] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[02:28:59] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[02:28:59] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 11. When Paper for Minecraft 1.17 is
+[02:28:59] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 11 will
+[02:28:59] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[02:28:59] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[02:28:59] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_282
+[02:28:59] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[02:28:59] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[02:28:59] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java11
+[02:28:59] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[02:28:59] [Server thread/INFO]: Timings Reset
+[02:28:59] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
+[02:29:00] [Craft Scheduler Thread - 3/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
+[02:29:00] [Craft Scheduler Thread - 3/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[02:29:00] [Server thread/INFO]: No expansions were registered!
+[02:29:00] [Craft Scheduler Thread - 1/INFO]: [UltimateFactions] You are running the newest version!
+[02:29:00] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available
+[02:29:00] [User Authenticator #1/INFO]: UUID of player yvng_amir is 12134f5c-9c81-4274-949f-a260863f20fa
+[02:29:00] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[02:29:02] [Server thread/INFO]: yvng_amir joined the game
+[02:29:02] [Server thread/INFO]: yvng_amir[/69.117.233.198:7120] logged in with entity id 72 at ([world]423.6387725312957, 25.0, 103.17354468209025)
+[02:29:03] [Server thread/WARN]: [Essentials] File motd.txt does not exist. Creating one for you.
+[02:29:03] [pool-9-thread-1/INFO]: [Essentials] Creating empty config: /home/azureuser/mc-server/plugins/Essentials/userdata/12134f5c-9c81-4274-949f-a260863f20fa.yml
+[02:29:15] [User Authenticator #1/INFO]: UUID of player bendgk is 9032ea59-caa1-4489-a167-c19a32f9771d
+[02:29:15] [Server thread/INFO]: bendgk joined the game
+[02:29:15] [Server thread/INFO]: bendgk[/50.93.222.80:3711] logged in with entity id 685 at ([world]361.43974782337324, 65.0, 285.63715627013784)
+[02:29:15] [pool-9-thread-1/INFO]: [Essentials] Creating empty config: /home/azureuser/mc-server/plugins/Essentials/userdata/9032ea59-caa1-4489-a167-c19a32f9771d.yml
+[02:29:26] [User Authenticator #1/INFO]: UUID of player Dridlord is 37a23b25-86eb-4b27-993b-87fa38bc5130
+[02:29:27] [Server thread/INFO]: Dridlord joined the game
+[02:29:27] [Server thread/INFO]: Dridlord[/100.33.197.122:51809] logged in with entity id 722 at ([world]-1937.4877480123812, 36.0, 12.398841874257753)
+[02:29:27] [pool-9-thread-1/INFO]: [Essentials] Creating empty config: /home/azureuser/mc-server/plugins/Essentials/userdata/37a23b25-86eb-4b27-993b-87fa38bc5130.yml
+[02:29:47] [Server thread/INFO]: bendgk issued server command: /f create Owners
+[02:29:56] [Server thread/INFO]: bendgk issued server command: /baltop
+[02:30:00] [Server thread/INFO]: CONSOLE issued server command: /balance set
+[02:30:00] [Server thread/INFO]: Error: Player not found.
+[02:30:13] [Server thread/INFO]: bendgk issued server command: /money set
+[02:30:16] [Server thread/INFO]: bendgk issued server command: /money bendgk
+[02:30:18] [Server thread/INFO]: bendgk issued server command: /money bendgk add
+[02:30:29] [Server thread/INFO]: bendgk issued server command: /f config
+[02:30:40] [Server thread/INFO]: bendgk issued server command: /f admin
+[02:30:43] [Server thread/INFO]: bendgk issued server command: /f admin
+[02:30:47] [Server thread/INFO]: bendgk issued server command: /f help
+[02:30:50] [Server thread/INFO]: bendgk issued server command: /f help 2
+[02:31:01] [Server thread/INFO]: bendgk issued server command: /f bank
+[02:33:12] [Server thread/INFO]: bendgk issued server command: /f reload
+[02:33:12] [Server thread/INFO]: [UltimateFactions] Disabling UltimateFactions v4.2.2
+[02:33:12] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: ultimatefactions
+[02:33:12] [Server thread/INFO]: [UltimateFactions] Enabling UltimateFactions v4.2.2
+[02:33:12] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader UltimateFactions v4.2.2
+[02:33:12] [Server thread/INFO]: 
+  _    _ _ _   _                 _         ______         _   _                 
+ | |  | | | | (_)               | |       |  ____|       | | (_)                
+ | |  | | | |_ _ _ __ ___   __ _| |_ ___  | |__ __ _  ___| |_ _  ___  _ __  ___ 
+ | |  | | | __| | '_ ` _ \ / _` | __/ _ \ |  __/ _` |/ __| __| |/ _ \| '_ \/ __|
+ | |__| | | |_| | | | | | | (_| | ||  __/ | | | (_| | (__| |_| | (_) | | | \__ \
+  \____/|_|\__|_|_| |_| |_|\__,_|\__\___| |_|  \__,_|\___|\__|_|\___/|_| |_|___/
+                                                                                
+                              enabled v4.2.2 by Miinoo_ 
+                         thank you for using ultimatefactions!                  
+             if you find any bug please report them on my discord! discord.gg/4dgT7Pz      
+[02:33:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ultimatefactions
+[02:33:12] [Craft Scheduler Thread - 12/INFO]: [UltimateFactions] You are running the newest version!
+[02:33:17] [Server thread/INFO]: bendgk issued server command: /f create Owner
+[02:33:23] [Server thread/INFO]: bendgk issued server command: /f leave
+[02:33:26] [Server thread/INFO]: bendgk issued server command: /f disband
+[02:33:38] [Server thread/INFO]: bendgk issued server command: /f create Owners
+[02:33:43] [Server thread/INFO]: bendgk issued server command: /f claim
+[02:37:12] [Server thread/INFO]: bendgk lost connection: Disconnected
+[02:37:12] [Server thread/INFO]: bendgk left the game
+[02:38:46] [Server thread/INFO]: Dridlord lost connection: Disconnected
+[02:38:46] [Server thread/INFO]: Dridlord left the game
+[03:17:32] [Server thread/INFO]: yvng_amir was slain by Spider
+[03:29:03] [Server thread/INFO]: Stopping the server
+[03:29:03] [Server thread/INFO]: Stopping server
+[03:29:03] [Server thread/INFO]: [UltimateFactions] Disabling UltimateFactions v4.2.2
+[03:29:03] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion: ultimatefactions
+[03:29:03] [Server thread/INFO]: [dynmap] Disabling dynmap v3.1-beta7-449
+[03:29:03] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[03:29:03] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[03:29:03] [Server thread/INFO]: [dynmap] Saved 6943 pending tile renders in world 'world'
+[03:29:08] [Server thread/INFO]: [dynmap] Disabled
+[03:29:08] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.10.9
+[03:29:08] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.0-dev+96-1cf2b11
+[03:29:08] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[03:29:08] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[03:29:08] [Server thread/INFO]: Saving players
+[03:29:08] [Server thread/INFO]: yvng_amir lost connection: Server closed
+[03:29:08] [Server thread/INFO]: yvng_amir left the game
+[03:29:08] [Server thread/INFO]: Saving worlds
+[03:29:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:29:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:29:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:29:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:29:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:29:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:29:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:29:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:29:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:29:10] [Server thread/INFO]: Flushing Chunk IO
+[03:29:10] [Server thread/INFO]: Closing Thread Pool
+[03:29:10] [Server thread/INFO]: Closing Server

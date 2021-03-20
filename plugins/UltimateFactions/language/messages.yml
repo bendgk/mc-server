@@ -1,0 +1,637 @@
+Success_Messages:
+  Successfully_Created: '&aSuccessfully created faction &e%faction%&a!'
+  Successfully_Created_Costs: '&e$%amount% &ahas been withdrawn to create a faction!'
+  Successfully_Set_Home: '&aSuccessfully set home for faction &e%faction%&a!'
+  Successfully_Left: '&aSuccessfully left faction &e%faction%&a!'
+  Successfully_Disbanded: '&aSuccessfully disbanded faction &e%faction%&a!'
+  Successfully_Invited: '&aSuccessfully invited &e%player%&a!'
+  Successfully_Joined: '&aSuccessfully joined &e%faction%&a!'
+  Successfully_Reloaded: '&aSuccessfully reloaded!'
+  Successfully_Created_Rank: '&aSuccessfully created rank!'
+  Successfully_Deleted_Rank: '&aSuccessfully deleted rank &e%rank%!'
+  Successfully_Edited_Rank: '&aSuccessfully edited rank!'
+  Successfully_Added_Warp: '&aSuccessfully added Warp &e%warp%&a!'
+  Successfully_Deleted_Warp: '&aSuccessfully deleted Warp &e%warp%&a!'
+  Successfully_Kicked: '&aSuccessfully kicked &e%player%&a!'
+  Successfully_Set_Rank: '&aSuccessfully added &e%player%&a to rank &e%rank%!'
+  Successfully_Warped: '&aYou teleported to warp &e%warp%!'
+  Successfully_Teleported_Home: '&aYou''ve got teleported to your faction home!'
+  Successfully_Teleported_Warp: '&aYou''ve got teleported to warp &e%warp%&a!'
+  Successfully_Teleported_Wild: '&aYou''ve got teleported to a wild spot!'
+  Successfully_Claimed: '&aSuccessfully claimed this chunk for &e$%money%!'
+  Chunk_AutoClaimed: '&2AutoClaim &8| &aClaimed for &e$%money%!'
+  Successfully_UnClaimed: '&aSuccessfully unclaimed this chunk!'
+  Successfully_UnClaimedAll: '&aSuccessfully unclaimed all chunks!'
+  Successfully_Added_Enemy: '&aSuccessfully added enemy &e%enemy% &ato your list!'
+  Successfully_Promoted: '&aSuccessfully promoted &e%player% &aas leader!'
+  Successfully_Set_Name: '&aSuccessfully renamed faction to &e%faction%&a!'
+  Successfully_Set_Description: '&aSuccessfully set description of faction &e%faction%&a
+    to &e%description%&a!'
+  Successfully_Ally_Sent: '&aSuccessfully sent an request to faction &e%faction%&a'
+  Successfully_Ally_Added: '&aYou are now allied with faction &e%faction%&a!'
+  Successfully_Truce_Sent: '&aSuccessfully sent an request to faction &e%faction%&a'
+  Successfully_Truced_Added: '&aYou are now truced with faction &e%faction%&a!'
+  Successfully_Unallied: '&aSuccessfully unallied faction &e%faction%&a!'
+  Successfully_Untruced: '&aSuccessfully untruced faction &e%faction%&a!'
+  Successfully_Unenemied: '&aSuccessfully unenemied faction &e%faction%&a!'
+  Successfully_Edited_Ally: '&aSuccessfully edited ally!'
+  Successfully_Entered_AdminMode: '&aSuccessfully entered adminmode!'
+  Successfully_Left_AdminMode: '&aSuccessfully left adminmode!'
+  Successfully_Entered_ByPassAll: '&aSuccessfully entered bypass all mode!'
+  Successfully_Left_ByPassAll: '&aSuccessfully left bypass all mode!'
+  Successfully_Started_Siege: '&aSuccessfully started a siege! Hurry up, you have
+    only &e%time% &aminutes!'
+  Successfully_Received_Advanced_Permissions: '&aSuccessfully received advanced permissions!'
+  Successfully_Removed_Advanced_Permissions: '&aSuccessfully &cremoved &aadvanced
+    permissions!'
+  Successfully_Set_TownHall: '&aSuccessfully set townhall!'
+  Successfully_Egged_TownHall: '&aSuccessfully egged townhall!'
+  Successfully_Upgraded_TownHall: '&aSuccessfully upgraded townhall to level &e%level%&a
+    for &e%money%!'
+  Successfully_Removed_TownHall: '&aSuccessfully removed townhall!'
+  Successfully_Deposit: '&aSuccessfully deposit &7%amount% &e%item%(s)!'
+  Successfully_Withdraw: '&aSuccessfully withdrawn &7%amount% &e%item%(s)!'
+  Successfully_Deposit_Money: '&aSuccessfully deposit &e%amount%$'
+  Successfully_Bought_Energy: '&aSuccessfully bought 24h of energy!'
+  Successfully_Updated_Top: '&aSuccessfully updated top factions!'
+  Successfully_Received_RegionWand: '&aSuccessfully received wand!'
+  Successfully_Set_Pos1: '&aSuccessfully set position 1 &8(&c%coords%&8)!'
+  Successfully_Set_Pos2: '&aSuccessfully set position 2 &8(&c%coords%&8)!'
+  Successfully_Created_Region: '&aSuccessfully created region &e%name%&a!'
+  Successfully_Deleted_Region: '&aSuccessfully deleted region &e%name%&a!'
+  Successfully_Upgraded_Faction: '&aSuccessfully upgraded faction to level: &e%level%
+    &7(&c$%cost%&7)!'
+  Successfully_Added_ShopCategory: '&aSuccessfully added a ShopCategory!'
+  Successfully_Edited_ShopCategory: '&aSuccessfully edited a ShopCategory!'
+  Successfully_Bought_ShopItem: '&aSuccessfully bought %amount%x %item%!'
+  Successfully_Sold_ShopItem: '&aSuccessfully sold %amount% x %item%!'
+  Successfully_Added_ShopItem: '&aSuccessfully added a Shop Item!'
+  Successfully_Removed_ShopItem: '&aSuccessfully removed a ShopItem!'
+  Successfully_Removed_ShopCategory: '&aSuccessfully removed a ShopCategory!'
+  Successfully_Edited_Region: '&aSuccessfully edited region &e%region%&a!'
+  Successfully_Created_Quest: '&aSuccessfully created a quest!'
+  Successfully_Accepted_Quest: '&aSuccessfully accepted quest &e%quest%&a!'
+  Successfully_Claimed_Reward: '&aSuccessfully claimed &e%reward% &aof &e%quest%&a!'
+  Successfully_Completed_Quest: '&aYour faction has completed the quest ''&e%quest%&a''!
+    You can claim your rewards now!'
+Error_Messages:
+  Player_Not_Permitted: '&cYou are not permitted to do that!'
+  Create_Syntax: '&cPlease use /f create <name>!'
+  Invite_Syntax: '&cPlease use /f invite <player>!'
+  Join_Syntax: '&cPlease use /f join <faction>!'
+  Ally_Syntax: '&cPlease use /f ally <faction>!'
+  Truce_Syntax: '&cPlease use /f truce <faction>!'
+  Enemy_Syntax: '&cPlease use /f enemy <name>!'
+  Set_Rank_Syntax: '&cPlease use /f setrank <player> [rank]!'
+  Set_Warp_Syntax: '&cPlease use /f setwarp <name> [password]!'
+  Del_Warp_Syntax: '&cPlease use /f delwarp <name>!'
+  Warp_Syntax: '&cPlease use /f warp <name> [password] or /f warp list!'
+  Kick_Syntax: '&cPlease use /f kick <player>!'
+  Ally_Accept_Syntax: '&cPlease use /f acceptally <faction>'
+  Set_Name_Syntax: '&cPlease use /f setname <name>!'
+  Set_Description_Syntax: '&cPlease use /f setdesc <desc>!'
+  Set_Leader_Syntax: '&cPlease use /f setleader <name>!'
+  Neutral_Syntax: '&cPlease use /f neutral <faction>!'
+  Siege_Syntax: '&cPlease use /f siege <faction>!'
+  Deposit_Syntax: '&cPlease use /f bank deposit <amount>!'
+  Region_Syntax: '&cPlease use /f region <create / delete> <name> or /f region list!'
+  Reconnect_Error: '&cSomething went wrong, please reconnect!'
+  Create_Error_Alphanumeric: '&cYou can use only alphanumeric letters!'
+  Create_Error_Length: '&cThe name is too long!'
+  Faction_Already_Exists: '&cThis faction does already exist!'
+  Faction_Home_Not_Exists: '&cThere is no home you can teleport to!'
+  Faction_SetHome_Error: '&cYou can''t set your faction home outside a claimed chunk!'
+  Faction_SetWarp_Error: '&cYou can''t set a warp outside a claimed chunk!'
+  Faction_SetWarp_Name_Error: '&cYou can''t name a warp like this!'
+  Faction_SetWarp_Limit_Error: '&cYou can''t set more warps because your faction has
+    reached the warp amount limit!'
+  Faction_Warp_Error: '&cThis warp has a password. Please use /f warp <name> <password>'
+  Faction_Warp_Wrong_Password: '&cWrong password!'
+  Warp_Not_Found: '&cWarp not found!'
+  Warp_Already_Exists: '&cThis warp does already exist! Please use /f delwarp <name>
+    to delete it!'
+  Faction_Not_Found: '&cFaction not found!'
+  Player_Already_In_Faction: '&cYou are already in a Faction! Do /f leave to leave
+    your faction!'
+  Player_Invite_Error: '&cThis Player is already in a Faction!'
+  Player_Invite_Self_Error: '&cYou can not invite yourself!'
+  Player_Already_Invited: '&cYou have already invited this player!'
+  Player_Has_No_Invites: '&cYou have no invitations!'
+  Invite_Faction_Not_Found: '&cYou have no invitations from faction &e%faction%&a!'
+  Player_Not_In_Faction: '&cYou are not in a Faction!'
+  Player_Can_Not_Leave: '&cYou can not leave the faction, you are the leader!'
+  Player_Not_Found: '&cThis player is not online!'
+  Rank_Name_Null: '&cThe name can not be null!'
+  Rank_Already_Exists: '&cThis rank already exists!'
+  Rank_Prefix_Null: '&cThe prefix can not be null!'
+  Rank_Set_Leader_Error: '&cYou can''t add another leader!'
+  Rank_Set_Higher_Error: '&cYou can''t set a rank that is higher than you!'
+  Rank_Not_Found: '&cRank not found!'
+  Rank_Set_Self_Error: '&cYou can not change your own rank!'
+  Kick_Error_Higher_Rank: '&cYou can not kick a player that has a higher rank than
+    you!'
+  Kick_Self_Error: '&cYou can not kick yourself!'
+  Target_Error: '&cSomething went wrong! Maybe the target does not exist!'
+  Target_Not_In_Faction: '&cThis player is not in your faction!'
+  Cancelled_Action: '&cCancelled!'
+  Chunk_Already_Claimed: '&cAlready claimed!'
+  Chunk_Not_Claimed: '&cThis chunk is not claimed!'
+  Claim_Error_World: You can't claim a chunk in this world!
+  Claim_Error_Region: '&cYou can''t claim this chunk because it is in a blocked region!'
+  Chunk_Not_Connected: '&cThis chunk is not connected with your faction!'
+  Not_Your_Chunk: '&cThis chunk is not yours!'
+  Faction_Hit_Error: '&cYou can not hit a player of your own faction!'
+  Ally_Hit_Error: '&cYou can not hit an ally!'
+  Ally_Exists_Error: '&cYou already have an alliance with &e%faction%&a!'
+  Ally_Self_Error: '&cYou can''t send yourself a request!'
+  Ally_Already_Sent_Request: '&cYou''ve already sent a request!'
+  Ally_No_Requests: '&cYou have no requests!'
+  Ally_No_Requests_From: '&cYou have no requests from faction &e%faction%!'
+  Truce_Exists_Error: '&cYou already trust &e%faction%&a!'
+  Truce_Self_Error: '&cYou can''t send yourself a request!'
+  Truce_Already_Sent_Request: '&cYou''ve already sent a request!'
+  Truce_No_Requests: '&cYou have no requests!'
+  Truce_No_Requests_From: '&cYou have no requests from faction &e%faction%!'
+  Truce_Hit_Error: '&cYou can not hit a truce!'
+  Already_In_Relation: '&cYou are already in a relation with this faction! Do /f neutral
+    <faction> first!'
+  Place_Error: '&cYou are not permitted to place blocks in this area!'
+  Place_TNT_Error: '&cYou are not permitted to place tnt in this area!'
+  Place_Creeper_Error: '&cYou are not permitted to place creepers in this area!'
+  Break_Error: '&cYou are not permitted to break blocks in this area!'
+  Interact_Button_Error: '&cYou are not permitted to use buttons in this area!'
+  Interact_Lever_Error: '&cYou are not permitted to use levers in this area!'
+  Interact_Chest_Error: '&cYou are not permitted to use chests in this area!'
+  Interact_Shulker_Error: '&cYou are not permitted to use shulkers in this area!'
+  Interact_Ender_Chest_Error: '&cYou are not permitted to use enderchests in this
+    area!'
+  Interact_Trapped_Chest_Error: '&cYou are not permitted to use trapped chests in
+    this area!'
+  Interact_Dropper_Error: '&cYou are not permitted to use droppers in this area!'
+  Interact_Dispenser_Error: '&cYou are not permitted to use dispensers in this area!'
+  Interact_Hopper_Error: '&cYou are not permitted to use hoppers in this area!'
+  Interact_Repeater_Error: '&cYou are not permitted to use repeaters in this area!'
+  Interact_Comparator_Error: '&cYou are not permitted to use comparators in this area!'
+  Interact_Furnace_Error: '&cYou are not permitted to use furnaces in this area!'
+  Interact_Detector_Error: '&cYou are not permitted to use daylight detectors in this
+    area!'
+  Interact_Door_Error: '&cYou are not permitted to use doors in this area!'
+  Interact_Trap_Door_Error: '&cYou are not permitted to use trap doors in this area!'
+  Interact_Plate_Error: '&cYou are not permitted to use pressure plates in this area!'
+  Interact_Anvil_Error: '&cYou are not permitted to use pressure anvils in this area!'
+  Interact_Gate_Error: '&cYou are not permitted to use gates in this area!'
+  Interact_Barrel_Error: '&cYou are not permitted to use barrels in this area!'
+  Enemy_Exists_Error: '&cThis faction is already your enemy!'
+  Max_Claim_Error: '&cThis chunk can not be claimed! Your faction has reached the
+    max claims!'
+  AutoClaim_Error: '&4AutoClaim Error &8| &cCan''t claim, Chunk is already claimed!'
+  Faction_Not_In_Relation: '&cYou are not in a relation with this faction!'
+  Already_Siege_Faction: '&cYou are already siege a faction!'
+  Siege_Error: '&cYou can''t siege this faction! You need at least %needed% WarPieces
+    to do that!'
+  Siege_Online_Error: '&cYou can''t siege this faction! This faction needs at least
+    &e%vaule% &conline players!'
+  WarPiece_Error: '&cYou have no WarPieces with this faction!'
+  Help_Error: '&cThis page does not exist!'
+  Not_Enough_Money: '&cYou don''t have enough money!'
+  Teleport_Error: '&cYou can''t teleport in enemy territory!'
+  TownHall_Enabled_Error: '&cYou can''t use this command when the townhall feature
+    is enabled!'
+  TownHall_Create_Error: '&cYou can''t create your townhall while being sieged!'
+  TownHall_Location_Error: '&cYou can''t set the townhall outside a claimed chunk!'
+  TownHall_Already_Exists: '&cThe townhall already exists!'
+  TownHall_Hit_Error: '&cYou can''t hit your own townhall!'
+  TownHall_Move_Error: '&cYou can''t move your townhall yet!'
+  TownHall_Move_Siege_Error: '&cYou can''t move your townhall while being sieged!'
+  Deposit_Error: '&cYou don''t have enough items!'
+  Withdaw_Error: '&cEither the bank doesn''t contain any of this item or your inventory
+    is full!'
+  Valid_Number_Error: '&cPlease enter a valid number!'
+  Energy_Buy_Error: '&cYou can''t buy this yet!'
+  AdminMode_Enter_Error: '&cYou can''t enter the adminmode while bypass all is active!'
+  ByPassAllMode_Enter_Error: '&cYou can''t enter the adminmode while adminmode is
+    active!'
+  Inventory_Full_Error: '&cYour inventory is full!'
+  Region_Does_Not_Exist: '&cThis region doesn''t exist!'
+  Region_Already_Exist: '&cThis region does already exist!'
+  Region_Locations_Error: '&cPlease select two locations first!'
+  Regions_Not_Found: '&cNo regions found!'
+  Empty_Bucket_Error: '&cYou can''t empty your bucket here!'
+  Fill_Bucket_Error: '&cYou can''t fill your bucket here!'
+  Wild_Teleport_Error: '&cThe wild command is disabled on this server!'
+  Wild_Teleport_World_Error: '&cYou can''t use wild teleport in this world!'
+  Join_Error: '&cThe faction is full!'
+  Upgrade_Needed_Error: '&cYou can''t use this feature! You have to upgrade your faction
+    first!'
+  Fly_Chunk_Error: '&cYou have to be in a faction chunk to use this feature!'
+  Fill_Block_Error: '&cThis is not a valid block to fill!'
+  Fill_Block_Amount_Error: '&cYou have no TNT in your inventory!'
+  Fill_Block_Full_Error: '&cThis Block is full!'
+  Shop_Category_Create_Item_Error: '&aPlease choose a item!'
+  Shop_Add_Item_Item_Error: '&aPlease choose a item!'
+  Shop_Enabled_Error: '&cThe shop function is disabled!'
+  Shop_Sell_Item_Error: '&cYou don''t have this item in your inventory!'
+  Region_Name_Empty: '&cThe region name can''t be empty!'
+  Quest_Max_Reached: '&cYou have reached the maximum amount of active quests!'
+  Quest_Create_Select_First: '&cPlease select a quest type first!'
+  Quest_Create_Missing_Argument: '&cPlease fill out each argument!'
+  Quest_Create_Entity_Not_Found: '&cEntity not Found!'
+  Quest_Create_Item_Not_Found: '&cItem not Found!'
+GUI_Tags:
+  Confirm: '&aConfirm'
+  Cancel: '&cCancel'
+  Save: '&aSave'
+  Next: '&eNext'
+  Previous: '&ePrevious'
+  Back: '&eBack'
+  Enabled: '&aenabled'
+  Disabled: '&cdisabled'
+  'True': '&atrue'
+  'False': '&cfalse'
+  Create_Rank: '&aCreate Rank'
+  Set_Icon: '&aSet Icon'
+  Set_Name: '&aSet Name'
+  Set_Description: '&aSet Description'
+  Set_Prefix: '&aSet Prefix'
+  Set_Permissions: '&aSet Permissions'
+  Rank_Enter_Name: Enter name
+  Rank_Enter_Prefix: Enter prefix
+  Remove_Rank: '&cRemove Rank'
+  Edit_Players: '&eEdit players'
+  Edit_Rank: '&eEdit rank'
+  Delete_Rank: '&cDelete rank'
+  Edit_Players_Head: '&d%player%'
+  Rank_CustomIcon: '&eCustom Icon'
+  Rank_NormalIcon: '&eNormal Icon'
+  Info_Members: '&eFaction members'
+  Info_All: '&eInformation'
+  Info_Enemies: '&eEnemies'
+  Info_Truces: '&eTruces'
+  Info_Allies: '&eAllies'
+  Info_Relations: '&eRelations'
+  Info_Ranks: '&eFaction ranks'
+  Info_All_Name: '&eName: &a%name%'
+  Info_All_Level: '&eLevel: &a%level%'
+  Info_All_Description: '&eDescription: &a%description%'
+  Info_All_Members: '&eMembers: &a%count% &8/ &e%max%'
+  Info_All_Power: '&ePower: &a%count%'
+  Info_All_Claims: '&eClaims: &a%count% / %maxclaims%'
+  Info_Click_Lore: '&7&o- Click to open -'
+  Info_Claim_Energy: '&eEnergy: &a%count%'
+  Info_WarPieces: '&eWarPieces'
+  Info_WarPieces_Lore: '&7Click to see warpieces'
+  Edit_Ally_Permission: '&eEdit Ally Permission'
+  Unally: '&cUnally'
+  Confirm_Description: '&eDescription'
+  Disband_Confirm_Lore: '&7Click to disband your faction'
+  Leave_Confirm_Lore: '&7Click to leave your faction'
+  Delete_Rank_Confirm_Lore: '&7Click to delete this rank'
+  Set_Rank_Confirm_Lore: '&7Click to set rank &e%rank% &7to player &e%player%'
+  Promote_Leader_Confirm_Lore: '&7Click to promote player &e%player% &7to leader'
+  Ally_Request_Lore: '&7Click to send faction &e%faction% &7an ally request'
+  Truce_Request_Lore: '&7Click to send faction &e%faction% &7an truce request'
+  Neutral_Lore: '&7Click to neutral faction &e%faction%'
+  WarPieces_Lore1: '&eYour WarPieces: &c%count%'
+  WarPieces_Lore2: '&eTheir WarPieces: &c%count%'
+  Warps_Warp: '&c%warp%'
+  Warps_Lore: '&7Has Password: %value%'
+  Warps_Value_Yes: '&aYes'
+  Warps_Value_No: '&aNo'
+  Admin_Factions: '&eFactions'
+  Admin_Leader_Lore: '&7Leader: &3%leader%'
+  Admin_Get_Permissions: '&eToggle Leader permissions'
+  Admin_Get_Permissions_Lore: '&7You receive all permissions in this faction'
+  Admin_Warps: '&eFaction Warps'
+  Admin_Warps_Warp: '&c%warp%'
+  Admin_Warps_Warp_Lore: '&ePassword: &7%password%'
+  Admin_Warps_Warp_Lore_No_Password: '&7No password set!'
+  Admin_Warps_Lore: '&7Manage all faction warps of this faction'
+  Admin_Warps_Warp_Teleport: '&eTeleport'
+  Admin_Warps_Warp_Teleport_Lore: '&eClick to teleport'
+  Admin_Warps_Warp_Info: '&eInfo'
+  Admin_Warps_Warp_Info_Lore: '&ePassword: &7%password%'
+  Admin_Warps_Warp_Delete: '&eDelete'
+  Admin_Warps_Warp_Delete_Lore: '&eClick to delete this warp'
+  Admin_Disband_Faction: '&eDisband Faction'
+  Admin_Disband_Faction_Lore: '&7You Disband Faction'
+  Admin_Faction_Change_Name: '&eChange Name'
+  Admin_Faction_Change_Desc: '&eChange Description'
+  Toggle_Advanced_Permissions: '&eToggle advanced permissions'
+  Admin_Get_Advanced_Permissions_Lore: '&8- &7Teleport ByPass'
+  Admin_Bypass_All: '&bToggle Bypass All'
+  Admin_Bypass_All_Lore: '&7Bypass all Factions'
+  Admin_TownHall: '&eTownhall options'
+  Admin_TownHall_Lore: '&7- Click to open -'
+  Admin_TownHall_Remove: '&eRemove Townhall'
+  Admin_TownHall_Remove_Lore: '&7Click to remove'
+  Admin_TownHall_Get_Egg: '&eGet Townhall egg'
+  Admin_TownHall_Get_Egg_Lore1: '&cWarning! &7To avoid Errors, please make sure'
+  Admin_TownHall_Get_Egg_Lore2: '&7the townhall don''t exist when you place this egg!'
+  Bank_Deposit: '&eDeposit'
+  Bank_Withdraw: '&eWithdraw'
+  Bank_Info: '&eInfo'
+  Bank_Info_Lore: '&a&lCurrent Balance: &7$%amount%'
+  Bank_Item_Info_Lore: '&a&lAmount: &7%amount%'
+  Bank_Item_Info_Lore2: '&a&lTotal sum: &7$%amount%'
+  Bank_Deposit_1: '&b&lDeposit 1: &a+ $%price% &7&o(Left-Click)'
+  Bank_Deposit_32: '&b&lDeposit 32: &a+ $%price% &7&o(Shift-Left-Click)'
+  Bank_Deposit_64: '&b&lDeposit 64: &a+ $%price% &7&o(Right-Click)'
+  Bank_Deposit_All: '&b&lDeposit All: &a+ $%price% &7&o(Shift-Right-Click)'
+  Bank_Withdraw_1: '&b&lWithdraw 1: &7&o(Left-Click)'
+  Bank_Withdraw_32: '&b&lWithdraw 32: &7&o(Shift-Left-Click)'
+  Bank_Withdraw_64: '&b&lWithdraw 64: &7&o(Right-Click)'
+  Townhall_Title: '&8Townhall'
+  Townhall_Lore: '&eSets the villager to ur current location'
+  Townhall_Energy: '&eEnergy'
+  Townhall_Energy_Lore: '&7%count%'
+  Townhall_Buy_Energy: '&eBuy 24h of energy'
+  Townhall_Buy_Energy_Lore: '&7Costs: &a$%costs%'
+  Townhall_Upgrade: '&eUpgrade'
+  Townhall_Upgrade_Lore: '&7Upgrade your Townhall'
+  Townhall_Bank: '&eBank'
+  Townhall_Bank_Lore2: '&7Current value: &a$%count%'
+  Townhall_Move: '&eMove your townhall'
+  Townhall_Move_Lore: '&7Can be moved in: &e%time%'
+  TopFactions_Faction: '&6%faction%'
+  TopFactions_Faction_Lore: '&7%description%'
+  TopFactions_Faction_Lore1: ' '
+  TopFactions_Faction_Lore2: '&8&m     [&r&6Blocks&8]&m     '
+  TopFactions_Faction_Lore3: '&7Bank amount: &e$%amount%'
+  TopFactions_Faction_Lore4: '&7Total: &e$%value%'
+  TopFactions_PlacedBlock: '&e%block% &8: &c%amount%'
+  TopFactions_PlacedBlock_Empty: '&cN/A'
+  Regions_Lore: '&8» &7Left-Click to set &cpos1'
+  Regions_Lore1: '&8» &7Right-Click to set &cpos2'
+  Regions_Delete_Description: '&7Click to delete region &e%name%'
+  Upgrade_Info_Lore: '&8» &ecurrent level: &6%level%'
+  Upgrade_Info_Lore1: '&8» &anext level: &2%level%'
+  Upgrade_Info_Lore2: '&8» &c$%cost%'
+  Upgrade_Title: '&aUpgrade'
+  Upgrade_Lore: '&7&o- Click to upgrade -'
+  Upgrade_Maxed: '&cMaxed!'
+  Upgrade_Upgrades: '&bSee all upgrades!'
+  Upgrades_Fly: '&eFaction fly'
+  Upgrades_Fill: '&eFaction Fill'
+  Upgrades_MemberCount: '&eMember Count &7(max: &a%value%&7)'
+  Upgrades_ClaimCount: '&eClaim Count &7(max: &a%value%&7)'
+  Upgrades_TeleportDelay: '&eTeleport delay &7(&a%value%&7s)'
+  Upgrades_MobDropMultiplayer: '&eMobDrop Multiplier &7(&a%value%&7)'
+  Upgrades_PotionEffects: '&ePotion Effects &7(&a%value%&7)'
+  Upgrades_PotionEffects_Next_Lore: '&eNext effects:'
+  Upgrades_PotionEffects_Lore_Format: '&7- &7%effect%'
+  Upgrades_GrowSpeed: '&eGrow-Speed Multiplier &7(&a%value%&7)'
+  Upgrades_Soon: '&cComming soon'
+  Upgrades_WarpCount: '&eWarp Count &7(max: &a%value%&7)'
+  Upgrades_Lore_Unlocked: '&8» &aunlocked'
+  Upgrades_Lore_Locked: '&8» &clocked'
+  Upgrades_Lore_Next_Value: '&8» &6next&7: &e%value%'
+  Shop_MainGUI: '&8UltimateFactions - Shop'
+  Shop_AddCategoryGUI: '&8Add Category'
+  Shop_AddCategory: '&eAdd Category'
+  Shop_RemoveCategory: '&eRemove Category'
+  Shop_EditCategory: '&eEdit Category'
+  Shop_AddItem: '&8Add Item'
+  Shop_RemoveItem: '&eRemove Item'
+  Shop_AddCategory_Name: '&eName'
+  Shop_AddCategory_Description: '&eDescription'
+  Shop_AddCategory_Icon: '&eIcon'
+  Shop_AddCategory_Enter_Name: Enter Name
+  Shop_AddCategory_Enter_Description: Enter Description
+  Shop_ChooseIcon: '&eChoose Icon'
+  Shop_ChooseIcon_Lore: '&7- Click on the Item in your inventory -'
+  Shop_EditCategory_Name: '%name%'
+  Shop_EditCategory_Icon: '&eIcon'
+  Shop_EditCategory_Description: '%description%'
+  Shop_EditCategory_Add_Item: '&eAdd Shop Item'
+  Shop_EditCategory_Remove_Item: '&eRemove Shop Item'
+  Shop_AddItem_Name: '&eName'
+  Shop_AddItem_Description: '&eDescription'
+  Shop_AddItem_Price: '&ePrice'
+  Shop_AddItem_Sell_Price: '&eSell Price'
+  Shop_AddItem_Enter_Name: Enter Name
+  Shop_AddItem_Enter_Description: Enter Description
+  Shop_AddItem_Enter_Price: Enter Price
+  Shop_AddItem_Enter_Sell_Price: Enter Sell Price
+  Shop_AddItem_Item: '&eItem'
+  Shop_AddItem_canSell: '&eCan sell'
+  Shop_Item_Price_Lore: '&7Buy: &a$%price% &8| &7&oLeftClick'
+  Shop_Item_Sell_Price_Lore: '&7Sell: &a$%price% &8| &7&oRightClick'
+  Regions_Title: Regions
+  Regions_Region: '&3%name%'
+  Regions_Info_Title: 'Region: %region%'
+  Regions_Info_Edit: '&eEdit region'
+  Regions_Info_Delete: '&eDelete region'
+  Regions_Edit_Change_Name: '&eChange name'
+  Regions_Edit_Flags: '&eFlags'
+  Regions_Edit_Flags_Lore_Format: '&7- &a%flag%'
+  Regions_Flags_Title: Flags
+  Region_Flags_DisablePVP: '&eDisable PvP'
+  Region_Flags_DisablePlace: '&eDisable Place'
+  Region_Flags_DisableBreak: '&eDisable Break'
+  Invites_Title: Invites
+  Invites_Faction: '&e%faction%'
+  Invites_Faction_Description_Lore: '&7Click to accept or deny the invitation'
+  Permission_Chat: Chat
+  Permission_Build: Build
+  Permission_Break: Break
+  Permission_Open_Door: Open Door
+  Permission_Open_Chest: Open Chest
+  Permission_Open_Trapped_Chest: Open Trapped Chest
+  Permission_Open_Ender_Chest: Open Ender Chest
+  Permission_Home: Home
+  Permission_Set_Home: Set Home
+  Permission_Warp: Warp
+  Permission_Manage_Warps: Manage Warps
+  Permission_Place_TNT: Place TNT
+  Permission_Kick: Kick
+  Permission_Invite: Invite
+  Permission_Claim: Claim
+  Permission_UnClaim: UnClaim
+  Permission_Ally: Add Ally
+  Permission_Truce: Add Truce
+  Permission_Enemy: Add Enemy
+  Permission_Neutral: Neutral a Faction
+  Permission_Withdraw: Withdraw
+  Permission_Manage_Townhall: Manage Townhall
+  Permission_Manage_Roles: Manage Roles
+  Permission_Assign_Roles: Assing Roles
+  Permission_Fill_Bucket: Fill Bucket
+  Permission_Empty_Bucket: Empty Bucket
+  Permission_Use_Button: Use Button
+  Permission_Use_Lever: Use Lever
+  Permission_Use_Trapdoor: Use Trapdoor
+  Permission_Use_Repeater: Use Repeater
+  Permission_Use_Comparator: Use Comparator
+  Permission_Use_Dispenser: Use Dispenser
+  Permission_Use_Dropper: Use Dropper
+  Permission_Use_Hopper: Use Hopper
+  Permission_Use_Furnace: Use Furnace
+  Permission_Use_Fence_Gate: Use Fence Gate
+  Permission_Use_Anvil: Use Anvil
+  Permission_Disband: Disband
+  Permission_Hit_Allies: Hit Allies
+  Permission_Hit_Truces: Hit Truces
+  Permission_Siege: Siege
+  Permission_Fly: Fly
+  Permission_Fill: Fill
+  Permission_Change_Info: Change Info
+  Permission_Manage_Quests: Manage Quests
+  Permission_Claim_Quests: Claim Quest Reward
+  Quests_Title: Quests
+  Quests_Completed_Title: Completed Quests
+  Quests_Completed_Quests: '&aCompleted Quests'
+  Quests_Quest: '&e%quest%'
+  Quests_Quest_Completed: '&e%quest% &8(&aCompleted&8)'
+  Quests_Quest_Lore: '&7accepted: %value%'
+  Quests_Quest_Completed_Lore: '&7completed: &atrue'
+  Quests_Quest_Lore1: '&7type: &b%type%'
+  Quests_Quest_Lore_Reward: '&7reward: &e%reward%'
+  Quests_Quest_Completed_Claim_Lore: '&7&o- click to claim &ereward &7&o-'
+  Quests_Quest_Completed_Claim_Lore2: '&c&lalready claimed'
+  Quests_Quest_Lore2: '&8&m               '
+  Quests_Quest_Description: '&7%description%'
+  Quests_Quest_Process: '&7process: &b%value%&7 / &3%max%'
+  Quests_Create_Quest_Title: Create Quest
+  Quests_Create_Quest: '&eCreate Quest'
+  Quest_Type_Kill: Kill
+  Quest_Type_Collect: Collect
+  Quest_Type_Tame: Tame
+  Quest_Choose_Icon: Choose Icon
+  Quest_Choose_Type: Choose Type
+  Quest_Choose_Reward: Choose Choose Reward
+  Quest_Enter_Description: Enter description
+  Quest_Enter_Name: Enter name
+  Quest_Enter_Reward: Enter reward
+  Quest_Set_Type: '&eSet Type'
+  Quest_Set_Reward: '&eSet reward'
+  Quest_Set_Action: '&eSet Action'
+  Quest_Enter_Action: <amount>;<type>
+  Quest_Reward_Text: '&e$%reward%'
+  Rank_Leader: Leader
+  Rank_General: General
+  Rank_Lieutenant: Lieutenant
+  Rank_Member: Member
+  Rank_Recruit: Recruit
+Other:
+  Default_ChatPrefix: '&7[&b%faction%&7] &e%player% &8: &f'
+  Player_Get_Invite: '&aYou have been invited to join faction &e%faction%&a. Do /f
+    join &e%faction% &ato enter the faction!'
+  Player_Joined_Faction: '&aPlayer &e%player% &ajoined your faction!'
+  Player_Faction_Disbanded: '&cYour faction was disbanded, you are now not longer
+    in a faction!'
+  Player_Faction_Left: '&e%player% &cleft the faction!'
+  Player_Get_Kicked: '&cYou get kicked out of faction &e%faction%&c!'
+  Player_Received_Rank: '&aYou received rank &e%rank%&a!'
+  Player_Get_Promoted: '&bYou get promoted as leader!'
+  Command_CoolDown: '&cPlease wait &e%ss &cbefore using this command again!'
+  Entering_Territory: '&9Entering territory of &b%faction%'
+  Entering_Wilderness: '&2Entering &awilderness'
+  Entering_Region: '&bEntering region &3%region%'
+  Entered_ChatMode: '&aSwitched to &9%chat% &achat'
+  Public_Chat: '&7[&b%faction%&7] &e%player%&8 : &f'
+  Public_Chat_No_Faction: '&7[] &e%player%&8 : &f'
+  Faction_Chat: '&7[%rank%&7] &e%player%&8 : &f'
+  Ally_Chat: '&7[&9Ally&7] [&b%faction%&7] [%rank%&7] &e%player%&8 : &f'
+  Truce_Chat: '&7[&9Truce&7] [&b%faction%&7] [%rank%&7] &e%player%&8 : &f'
+  Map_Header: '&9&m                     &r&9[ %faction% (%direction%)&9]&m                     '
+  Ally_Request_Get: '&aFaction &e%faction% &awants an alliance. Type /f ally &e%faction%
+    &ato accept their request!'
+  Truce_Request_Get: '&aFaction &e%faction% &awants an truce. Type /f truce &e%faction%
+    &ato accept their request!'
+  Teleport_Start: '&aYou''ll get teleported in %s seconds...'
+  Teleport_Pay: '&aYou''ve paid $%costs% to teleport'
+  Teleport_Cancelled: '&cTeleport cancelled, you moved!'
+  AutoClaim_Enabled: '&aAutoclaim enabled'
+  AutoClaim_Disabled: '&aAutoclaim disabled'
+  Faction_Unallied: '&cYour faction was unallied by &e%faction%&c!'
+  Faction_Untruced: '&cYour faction was untruced by &e%faction%&c!'
+  Faction_Unenemied: '&cYour faction was unenemied by &e%faction%&c!'
+  Siege_Ended: '&cThe Siege is over!'
+  Siege_Alert: '&cYour faction gets sieged by %faction%! Hurry up!'
+  Energy_Is_Getting_Low: '&cThe energy of your faction is getting low!'
+  Energy_Limit_Reached: '&cThe energy of your faction hit 0! All your chunks are unclaimed'
+  TownHall_DisplayName: '&bTownhall: &e%faction%'
+  Enabled_Fly: '&aEnabled &7fly mode!'
+  Disabled_Fly: '&cDisabled &7fly mode!'
+  Fly_Left_Chunk: '&cYou left your faction territory while having fly enabled! It
+    will be disabled in 3 seconds!'
+  Enabled_Fill: '&aEnabled &7fill mode! Right-Click a storage container to fill it
+    with tnt out of your inventory!'
+  Disabled_Fill: '&cDisabled &7fill mode!'
+  Regions_Header: '&8&m     [&r&cRegions&8]&m     '
+  TopFaction_None: None
+  Help_HelpCommandHeader: '&8&m               &r&8[&c %title%&8 (&e%page%&7/&e%maxpages%&8)
+    ]&m               '
+  Help_HelpCommand: Shows this view
+  Help_HelpCommandSyntax: '[page]'
+  Help_AlliesCommand: Opens a GUI
+  Help_AllyCommand: Adds a faction to your allies
+  Help_AllyCommandSyntax: <faction>
+  Help_AutoClaimCommand: Walk across a chunk and claim it
+  Help_BankCommand: Opens the bank GUI
+  Help_BankCommandSyntax: '[deposit]'
+  Help_ChatCommand: Switch chat mode
+  Help_ChatCommandSyntax: '[faction, ally, truce, public]'
+  Help_ChunkSeeCommand: Shows the chunk borders
+  Help_ClaimCommand: Claims a new chunk
+  Help_CreateCommand: Create your own faction
+  Help_CreateCommandSyntax: <name>
+  Help_DelWarpCommand: Deletes a warp
+  Help_DelWarpCommandSyntax: <warp>
+  Help_DisbandCommand: Disbands your faction
+  Help_EnemyCommand: Adds an Faction to your enemy list
+  Help_EnemyCommandSyntax: <faction>
+  Help_EnergyCommand: Opens the Energy GUI
+  Help_FillCommand: Fills storage container with tnt
+  Help_FlyCommand: Enables fly in your territory
+  Help_HomeCommand: Teleports you to faction home
+  Help_InfoCommand: Shows you an info about a faction
+  Help_InfoCommandSyntax: '[faction]'
+  Help_InviteCommand: Invites a player to the faction
+  Help_InviteCommandSyntax: <player>
+  Help_InvitesCommand: Shows your invites
+  Help_JoinCommand: Joins a faction
+  Help_JoinCommandSyntax: <faction>
+  Help_KickCommand: Kicks a player out of your faction
+  Help_KickCommandSyntax: <player>
+  Help_LeaveCommand: Leaves a faction
+  Help_ListCommand: Lists all factions
+  Help_MapCommand: Shows territory map
+  Help_NeutralCommand: Removes a faction from you relations
+  Help_NeutralCommandSyntax: <faction>
+  Help_QuestsCommand: Opens the quests GUI
+  Help_RanksCommand: Opens a GUI
+  Help_RegionCommand: Sets a region where power and warpiece system is disabled
+  Help_RegionCommandSyntax: <list> or <create / delete> <name>
+  Help_RegionsCommand: Opens a region GUI
+  Help_ReloadCommand: Reloads the plugin
+  Help_SetDescriptionCommand: Changes the description of your faction
+  Help_SetDescriptionCommandSyntax: <description>
+  Help_SetHomeCommand: Sets the faction home point
+  Help_SetLeaderCommand: Promote a new leader
+  Help_SetLeaderCommandSyntax: <player>
+  Help_SetNameCommand: Changes the name of your faction
+  Help_SetNameCommandSyntax: <name>
+  Help_SetRankCommand: Sets a rank to a player
+  Help_SetRankCommandSyntax: <player> <rank>
+  Help_SetWarpCommand: Sets a warp point
+  Help_SetWarpCommandSyntax: <name> [password]
+  Help_ShopCommand: Opens a Shop GUI
+  Help_SiegeCommand: Siege a faction
+  Help_SiegeCommandSyntax: <faction>
+  Help_TopCommand: Opens a GUI with top 10 factions
+  Help_TopCommandSyntax: '[upgrade]'
+  Help_TownhallCommand: Sets the faction townhall
+  Help_TruceCommand: Adds a faction to your truces
+  Help_TruceCommandSyntax: Adds a faction to your truces <faction>
+  Help_UnClaimCommand: Unclaims a chunk
+  Help_UnClaimCommandSyntax: '[all]'
+  Help_UpgradeCommand: Opens a GUI where you can upgrade your faction
+  Help_WandCommand: Get a region wand
+  Help_WarpCommand: Teleports you to a warp
+  Help_WarpCommandSyntax: <name> [password] | list
+  Help_WildCommand: Teleports you to a random location
+  PvP_Disabled_In_Region: '&cPVP is disabled in this region!'
+  Region_Disabled_Action: '&cThis is not allowed in this region!'
+  PlaceHolder_Faction_Not_Found: N/A
+  Townhall_Killed: '&cYou townhall has been killed!'

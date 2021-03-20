@@ -1,0 +1,6 @@
+Materials:
+  HOPPER: 1
+Spawners:
+  CREEPER_SPAWNER:
+    displayName: '&aCreeper Spawner'
+    value: 10000
